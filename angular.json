@@ -38,9 +38,6 @@
               },
               {
                 "input": "src/global.scss"
-              },
-              {
-                "input": "node_modules/videogular2/fonts/videogular.css"
               }
             ],
             "scripts": []
@@ -132,9 +129,10 @@
           }
         }
       }
-    },
+    }
   },
   "cli": {
+    "analytics": false,
     "defaultCollection": "@ionic/angular-toolkit"
   },
   "schematics": {

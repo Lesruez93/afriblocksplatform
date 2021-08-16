@@ -88,7 +88,7 @@ export class DataStoreStackedPage implements OnInit {
   }
 
   loadStackedResults(): void {
-    this.triggerNewItemsLoading.next();
+    this.triggerNewItemsLoading.next('');
   }
 
   pushValuesToOpenStream(): void {
